@@ -1,0 +1,33 @@
+.diplomas {
+    margin: 0;
+    margin-bottom: 1.5em;
+    margin-top: 2.5em;
+    list-style: none;
+    padding: 0;
+
+    @media (min-width: 992px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.diploma {
+    margin: 0;
+    margin-bottom: 1.5em;
+    margin-top: 2.5em;
+    list-style: none;
+    padding: 0;
+display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+}
+
+.diplomas a, .diploma a {
+    color: #605e5e;
+    font-weight: 500;
+    padding: .25em .4em;
+    text-decoration: none;
+}
+
+.nav-active {
+    border-bottom: 2px solid;
+}

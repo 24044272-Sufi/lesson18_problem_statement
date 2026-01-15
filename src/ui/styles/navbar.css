@@ -1,0 +1,26 @@
+.navbar {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #dd1f26;
+    font-size: 1.5rem;
+    
+    &.active {
+        border-bottom: 2px solid;
+    }
+
+    &.active, &:hover {
+        color: #5dabaa;
+    }
+}

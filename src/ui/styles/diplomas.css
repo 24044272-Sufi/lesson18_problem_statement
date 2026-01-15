@@ -28,6 +28,33 @@ display: grid;
     text-decoration: none;
 }
 
+.diploma a {
+    border: 1px solid;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: .85em 1.125em;
+}
+
+
+.diplomas a:hover{
+  background-color: #605e5e;
+  border-radius: 3px;
+  color: #fff;
+}
+
+a.diploma-active {
+    border-bottom: 2px solid;
+}
+
+.diploma a:hover{
+    color: #489b9a !important;
+}
+
+.module-active {
+    color: #489b9a !important;
+}
+
+
 .nav-active {
     border-bottom: 2px solid;
 }

@@ -16,6 +16,9 @@ export function Navbar(){
                 <NavLink to="/diplomas" className={getClass}>
                 Diplomas
                 </NavLink>
+                <NavLink to="/register" className={getClass}>
+                Register
+                </NavLink>
             </div>
         </nav>
     )

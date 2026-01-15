@@ -4,6 +4,8 @@ import Diplomas from "./components/Diplomas.js";
 import Diploma from "./components/Diploma.js";
 import { Navbar } from "./ui/components/Navbar";
 import Module from "./components/Module.js";
+import Register from "./components/Register.js";
+import Confirmation from "./components/Confirmation.js";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
               <Route path=":moduleId" element={<Module/>} />
             </Route>
           </Route>
+          <Route path="register" element={<Register/>}/>
+          <Route path="confirmation" element={<Confirmation/>} />
         </Routes>
 
 
